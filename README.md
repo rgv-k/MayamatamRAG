@@ -71,7 +71,7 @@ MayamatamRAG/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/mayamatam-kg-pipeline.git
+git clone https://github.com/rgv-k/MayamatamRAG.git
 cd mayamatam-kg-pipeline
 ```
 
@@ -248,36 +248,10 @@ data/kg/KG_RELATIONS_FINAL.json
 
 ## Notes
 
-* The `data/` directory is generated automatically and is excluded from version control.
 * The pipeline is deterministic (`temperature=0`) for reproducibility.
 * OpenRouter is used as the unified LLM backend.
 * CrewAI enables multi-agent reasoning for structured knowledge extraction.
 
----
-
-## Troubleshooting
-
-### 1. `ModuleNotFoundError`
-
-Ensure virtual environment is activated and dependencies are installed.
-
-### 2. `crewai not found`
-
-Install inside venv:
-
-```
-pip install crewai
-```
-
-### 3. LLM errors
-
-Check:
-
-* API key in `.env`
-* internet connection
-* OpenRouter model availability
-
----
 
 ## Reproducibility
 
@@ -289,8 +263,4 @@ python run_pipeline.py <input_pdf>
 
 All intermediate stages are stored and can be inspected independently.
 
----
 
-## License
-
-Add your preferred license here.
