@@ -40,7 +40,7 @@ PDF
 ```
 MayamatamRAG/
 │
-├── data/                      # Auto-generated (not tracked)
+├── data/                      
 │   ├── ocr/
 │   ├── parsed/
 │   ├── glossary_batches/
